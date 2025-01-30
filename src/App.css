@@ -1,9 +1,9 @@
 .container {
-    max-width: 1100px;
+  
     width: 100%; /* Ensures it takes full width up to the max-width */
     margin: 0 auto; /* Centers the container horizontally */
-    margin-top: 20px;
-    box-sizing: border-box; /* Ensures padding and borders are included in the width and height */
+  margin-top:20px;
+   
 }
 
 
@@ -15,4 +15,13 @@
 
 
 
+
+.full-screen-black {
+    background-color: #000000;
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
+    
+}
 
