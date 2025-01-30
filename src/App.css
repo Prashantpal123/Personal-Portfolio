@@ -1,0 +1,18 @@
+.container {
+    max-width: 1100px;
+    width: 100%; /* Ensures it takes full width up to the max-width */
+    margin: 0 auto; /* Centers the container horizontally */
+    margin-top: 20px;
+    box-sizing: border-box; /* Ensures padding and borders are included in the width and height */
+}
+
+
+
+.underline-offset-8 {
+    text-underline-offset: 8px;
+}
+
+
+
+
+

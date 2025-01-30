@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+a:active {
+  @apply text-[#8e691f]; /* Apply Tailwind text color class for active state */
+}
