@@ -3,8 +3,8 @@ import my_img from "../../assets/images/prashant_img-removebg.png"
 const Home = () => {
     return (
         <>
-        <section className='container'> 
-            <div className='  flex mx-4 gap-4 md:gap-32 md:justify-center md:mt-20' id='home'>
+        <section id='home' className='container'> 
+            <div className='  flex mx-8 gap-4 md:gap-32 md:justify-center md:mt-20' id='home'>
                 <div className='hidden md:block'> <figure className='max-w-[400px] w-[100px] md:w-[500px] shadow rounded-3xl shadow-amber-400'> <img src={my_img} alt="" /></figure></div>
 
                 <div className='md:mt-16'>

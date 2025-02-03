@@ -13,14 +13,14 @@ const header = () => {
           <ul className=' flex gap-[20px] lg:gap-[50px] h-full mt-3'>
 
             <li className="text-[#f4f4f4] font-[700] hover:text-[#fcbb38] hover:underline leading-2 underline-offset-8 active:text-[#fcbb38]">
-              <a href="#ram">Home</a>
+              <a href="/">Home</a>
             </li>
 
-            <li className='text-[#f4f4f4] font-[700] hover:text-[#fcbb38] hover:underline leading-2 active:text-[#fcbb38]  underline-offset-8'><a className='active:text-[#fcbb38]' href="">About</a></li>
-            <li className='text-[#f4f4f4] font-[700] hover:text-[#fcbb38] hover:underline leading-2 active:text-[#fcbb38] underline-offset-8'><a href="">Education</a></li>
-            <li className='text-[#f4f4f4] font-[700] hover:text-[#fcbb38] hover:underline leading-2 active:text-[#fcbb38] underline-offset-8 '><a href="">Projects</a></li>
-            <li className='text-[#f4f4f4] font-[700] hover:text-[#fcbb38] hover:underline leading-2 active:text-[#fcbb38] underline-offset-8'><a href="">Skills</a></li>
-            <li className='text-[#f4f4f4] font-[700] hover:text-[#fcbb38] hover:underline leading-2 active:text-[#fcbb38] underline-offset-8'><a href="">Contact us</a></li>
+            <li className='text-[#f4f4f4] font-[700] hover:text-[#fcbb38] hover:underline leading-2 active:text-[#fcbb38]  underline-offset-8'><a className='active:text-[#fcbb38]' href="#about">About</a></li>
+            <li className='text-[#f4f4f4] font-[700] hover:text-[#fcbb38] hover:underline leading-2 active:text-[#fcbb38] underline-offset-8'><a href="#education">Education</a></li>
+            <li className='text-[#f4f4f4] font-[700] hover:text-[#fcbb38] hover:underline leading-2 active:text-[#fcbb38] underline-offset-8 '><a href="#projects">Projects</a></li>
+            <li className='text-[#f4f4f4] font-[700] hover:text-[#fcbb38] hover:underline leading-2 active:text-[#fcbb38] underline-offset-8'><a href="#skills">Skills</a></li>
+            <li className='text-[#f4f4f4] font-[700] hover:text-[#fcbb38] hover:underline leading-2 active:text-[#fcbb38] underline-offset-8'><a href="#skills">Contact us</a></li>
           </ul>
         </div>
 
