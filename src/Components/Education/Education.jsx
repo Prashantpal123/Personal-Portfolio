@@ -4,7 +4,7 @@ const Education = () => {
     return (
         <>
             <div id='education' className='mt-8 '>
-                <h1 className='text-[#f4f4f4] w-full text-center text-[48px] leading-13 md:text-[60px] lg:text-[50px] font-extrabold md:leading- '> Education</h1>
+                <h1 className='text-[#f4f4f4] w-full text-center text-[48px] leading-13 md:text-[50px]  font-extrabold md:leading- '> Education</h1>
                 <div className=' md:flex-row flex flex-col items-center  justify-center md:gap-7 mx-4 gap-4 lg:gap-10 mt-8'>
 
 
