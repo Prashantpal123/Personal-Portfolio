@@ -12,6 +12,7 @@
   "dependencies": {
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
     "@tailwindcss/vite": "^4.0.1",
+    "@vercel/speed-insights": "^1.1.0",
     "firebase": "^11.2.0",
     "link": "^2.1.1",
     "react": "^18.3.1",

@@ -10,6 +10,8 @@ import Skills from './Components/Skills/Skills'
 import Projects from './Components/Projects/Project'
 import Contact from './Components/Contact/Contact'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +26,7 @@ function App() {
    <Projects />
    <Skills/>
    <Contact />
+   <SpeedInsights />
  
     </>
   )
