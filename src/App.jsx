@@ -11,6 +11,7 @@ import Projects from './Components/Projects/Project'
 import Contact from './Components/Contact/Contact'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
    <Skills/>
    <Contact />
    <SpeedInsights />
+   <Analytics />
  
     </>
   )
