@@ -33,9 +33,9 @@ const Contact = () => {
       
 
       <div class="mt-8 text-center">
-        <a href="https://github.com/your-profile" target="_blank" class="mx-4 text-blue-600 hover:text-blue-800">GitHub</a>
-        <a href="https://linkedin.com/in/your-profile" target="_blank" class="mx-4 text-blue-600 hover:text-blue-800">LinkedIn</a>
-        <a href="https://twitter.com/your-profile" target="_blank" class="mx-4 text-blue-600 hover:text-blue-800">Twitter</a>
+        <a href="https://github.com/Prashantpal123" target="_blank" class="mx-4 text-blue-600 hover:text-blue-800">GitHub</a>
+        <a href="https://www.linkedin.com/in/prashantpal01/" target="_blank" class="mx-4 text-blue-600 hover:text-blue-800">LinkedIn</a>
+        <a href="" target="_blank" class="mx-4 text-blue-600 hover:text-blue-800">Twitter</a>
       </div>
       
    

@@ -77,9 +77,9 @@ const Projects = () => {
                                     users need general check-ups or specialized treatments, the platform enables them to find and connect with the right healthcare providers effortlessly.</p>
                             </div>
 
-                            <div className='flex justify-center'>
+                            <div className=''>
 
-                                <div className={` md:block max-w-[1100px] rounded-2xl md:mt-5 overflow-hidden mt-`}> <figure
+                                <div className={` md:block max-w-[900px] rounded-2xl md:mt-5 overflow-hidden mt-`}> <figure
                                     style={{ transform: `translateX(-${currentIndex * 100}%)` }} className='max-w-[900px]  relative   
                           flex transition-transform duration-1000 ease-in-out shadow  rounded-3xl shadow-amber-400'>  {docimg.map((img, index) => (
                                         <img className='  ' src={img} alt="" />
@@ -171,7 +171,7 @@ const Projects = () => {
                                     performance, and improve their knowledge. With a dynamic and responsive interface, it ensures a smooth and engaging experience for users of all ages. The summary
                                     page at the end of each quiz displays the user's answers along with the correct ones, helping them learn from their mistakes.</p>
                             </div>
-                            <div className='flex justify-center'>
+                            <div className='flex justify-center lg:justify-start'>
 
                                 <div className={` md:block max-w-[1100px] rounded-2xl md:mt-5 overflow-hidden mt-`}> <figure
                                     style={{ transform: `translateX(-${currentIndex * 100}%)` }} className='max-w-[900px]  relative   

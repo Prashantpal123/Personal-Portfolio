@@ -35,9 +35,9 @@ const About = () => {
 
      </div>
 <div className='w-full flex justify-center mt-3'>
-     <button className='bg-blue-500 hover:bg-blue-600 hover:text-[15px] font-[700] px-4 py-2 border border-amber-50   rounded-3xl cursor-pointer'>
+     <a href='https://drive.google.com/file/d/1D4tX0tv-YjmmuVlqpkA8R0q_lhwHlkYO/view?usp=sharing' className='bg-blue-500 hover:bg-blue-600 hover:text-[15px] font-[700] px-4 py-2 border border-amber-50   rounded-3xl cursor-pointer'>
                             Download <span className='text-[#f4f4f4] '>CV</span>
-                        </button>
+                        </a>
                         </div>
 
      

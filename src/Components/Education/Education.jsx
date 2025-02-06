@@ -11,7 +11,7 @@ const Education = () => {
 
                 <div className='bg-[#1a1a1a] rounded-2xl max-w-[350px]'>
                         <h1 className='mx-3 text-[#d41010] font-black mb-1'>2022-2025</h1>
-                        <div className=' bg-amber-500 mx-3 rounded-md mb-1'> <h1 className=' text-border p-1  border-red-500 
+                        <div className=' bg-[#fcbb38] mx-3 rounded-md mb-1'> <h1 className=' text-border p-1  border-red-500 
                         font-bold'>Bachelor of Computer Applications (BCA)</h1>   </div>
                        
                         <h1 className='mx-3 text-white text-[12px]'>IFTM UNIVERSITY [ Moradabad ]</h1>
@@ -26,14 +26,14 @@ const Education = () => {
                     </div>
                     <div className='bg-[#1a1a1a] rounded-2xl w-full  lg:min-w-[350px]  max-w-[350px] '>
                         <h1 className='mx-3 text-[#d41010] font-black mb-1'>2023-2024</h1>
-                        <div className=' bg-amber-500 mx-3  rounded-md mb-1 '> <h1 className=' text-border p-1  border-red-500 
+                        <div className=' bg-[#fcbb38] mx-3  rounded-md mb-1 '> <h1 className=' text-border p-1  border-red-500 
                         font-bold'>Certification</h1>   </div>
     
                         <div className='mx-3 text-gray-800 mb-5 bg-white p-2  mt-5 rounded text-[10px] md:text-[15px]'>
-                       <div className='bg-[#07621b] rounded '><h1 className='text-white font-black mx-1'>tailwind</h1>
+                       <div className='bg-[#07621b] rounded '><h1 className='text-white font-black mx-1'>Tailwind Css Bootcamp</h1>
                        <p className='text-[#030202] pb-1 font-semibold mx-1 text-[12px]'>lets upgrade</p></div>
                       
-                       <div className='bg-[#07621b] rounded mt-2 '><h1 className='text-white font-black mx-1'>tailwind</h1>
+                       <div className='bg-[#07621b] rounded mt-2 '><h1 className='text-white font-black mx-1'>Javascript Bootcamp</h1>
                        <p className='text-[#030202] pb-1 font-semibold mx-1 text-[12px]'>lets upgrade</p></div>
                         </div>
                        
