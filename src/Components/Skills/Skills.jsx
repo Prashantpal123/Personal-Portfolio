@@ -20,7 +20,7 @@ import cppImg from '../../assets/images/cpp.png';
 
 const Skills = () => {
   return (
-    <> <div className='mt-15'>
+    <> <div id='skill' className='mt-15 '>
   <h1 className='text-white text-center font-black text-[30px]'> My Skills</h1>
 
       <div className='  md:flex justify-center md:mx- mx-4  gap-4 md:gap-18  md:mt-4' id='home'>

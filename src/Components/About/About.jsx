@@ -11,7 +11,7 @@ const About = () => {
         <p className='text-[#000000f7] mt-3'>I am a dedicated Full-Stack Web Developer specializing in the MERN stack
      (MongoDB, Express.js, React.js, Node.js) to build scalable, efficient, and user-friendly web applications</p>
    <div className='flex lg:gap-[240px] justify-between lg:justify-center'>
-          <p className='text-[#021407d5] font-[700] text-xl lg:text-2xl'>Name  </p> <p className='text-[#063137f7] font-[700] text-xl lg:text-xl'>Prashant Pal </p>
+          <p className='text-[#021407d5] font-[700] '>Name  </p> <p className='text-[#063137f7] font-[700] text-xl lg:text-xl'>Prashant Pal </p>
                      
         </div> 
         <div className='flex lg:gap-[240px] justify-between lg:justify-center'>
@@ -24,7 +24,7 @@ const About = () => {
                      
         </div> 
         <div className='flex lg:gap-[150px] justify-between lg:justify-center'>
-          <p className='text-[#021407d5] font-[700] text-lg lg:ml-12 lg:text-2xl'> Email</p> <p className='text-[#063137f7] font-[700]  md:text-xl'>prashantpal2026@gmail.com </p>
+          <p className='text-[#021407d5] font-[700] text-[20px] lg:ml-12 '> Email</p> <p className='text-[#063137f7] font-[700]  '>prashantpal2026@gmail.com </p>
                      
         </div> 
        
