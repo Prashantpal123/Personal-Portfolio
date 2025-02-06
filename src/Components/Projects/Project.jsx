@@ -59,7 +59,7 @@ const Projects = () => {
 
     return (
         <>
-            <section id='projects' className='container'>
+            <section id='projects' className='container max-w-[1100px]'>
                 <h1 className='text-[#f4f4f4] md:mt-24 w-full text-center text-[28px] 
                 leading-13 md:text-[40px] lg:text-[50px]  font-extrabold md:leading- '> Projects</h1>
                 <div className='  lg:flex mx-4 md:mx-0 lg:mx-8 gap-4 md:gap-10 md:justify-center md:mt-15' id='home'>
