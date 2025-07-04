@@ -4,44 +4,64 @@ const About = () => {
   return (
     <>
     
-    <section id='about' className=' about container   justify-center max-w-[800px] lg:max-w-[1100px] md:pt-24  '>
-   <div className='mx-5 bg-[#fcbb38] border-amber-100 border rounded-lg'>   <div className='mx-3 my-4' >
+   
+    <section
+      id="about"
+      className="container mx-auto px-4 md:py-15 flex flex-col items-center justify-center  "
+    >
+      <div className="bg-white border-4 border-white rounded-3xl  w-full max-w-5xl px-1 py-1 lg:p-12 transition   cursor-pointer shadow-white ">
+        {/* Heading */}
+        <h1 className="text-4xl md:text-5xl font-extrabold text-center text-gray-800 md:mb-6 mb-3">
+          About <span className="text-amber-500">Me</span>
+        </h1>
 
-     <h1 className='text-[#f4f4f4] text-[48px] leading-13 md:text-[60px] lg:text-[60px] font-extrabold md:leading- '>About <span className='text-[#d41010]'>Me</span> </h1>
-        <p className='text-[#000000f7] mt-3'>I am a dedicated Full-Stack Web Developer specializing in the MERN stack
-     (MongoDB, Express.js, React.js, Node.js) to build scalable, efficient, and user-friendly web applications</p>
-   <div className='flex lg:gap-[240px] justify-between lg:justify-center'>
-          <p className='text-[#021407d5] font-[700] '>Name  </p> <p className='text-[#063137f7] font-[700] text-xl lg:text-xl'>Prashant Pal </p>
-                     
-        </div> 
-        <div className='flex lg:gap-[240px] justify-between lg:justify-center'>
-          <p className='text-[#021407d5] font-[700] text-xl lg:text-2xl lg:ml-1'> DOB  </p> <p className='text-[#063137f7] font-[700] text-xl lg:text-xl'>15/01/2005 </p>
-                     
-        </div> 
+        {/* Intro paragraph */}
+        <p className="text-gray-700 text-lg leading-relaxed text-center md:mb-10 mb-2 max-w-2xl mx-auto">
+        
+        I’m a passionate Full-Stack Developer with {" "}
+        <strong className="text-amber-600">hands-on experience</strong>{" "} in the {" "} 
+       <strong>MERN stack</strong>{" "} (MongoDB, Express.js, React.js, Node.js). I’ve worked on 
+        responsive UIs, built core features from scratch, developed admin panels, 
+        and implemented real-time notifications — all while solving real business 
+        problems through clean, scalable code.
+        </p>
+        
+        {/* Profile Details Grid */}
 
-        <div className='flex lg:gap-[95px] justify-between lg:justify-center'>
-          <p className='text-[#021407d5] font-[700] text-xl lg:ml-5 lg:text-2xl '> City </p> <p className='text-[#063137f7] font-[700] lg:ml-24 text-xl lg:text-xl'>Jaspur ,Uttarakhand </p>
-                     
-        </div> 
-        <div className='flex lg:gap-[150px] justify-between lg:justify-center'>
-          <p className='text-[#021407d5] font-[700] text-[20px] lg:ml-12 '> Email</p> <p className='text-[#063137f7] font-[700]  '>prashantpal2026@gmail.com </p>
-                     
-        </div> 
-       
+        <div className="grid md:grid-cols-2 gap-3 md:gap-6  mx-2  text-gray-800 font-medium text-lg md:mb-10  md:pl-0    mb-3">
+          <div className="flex justify-between">
+            <span>Name:</span>
+            <span className="text-gray-600 font-semibold">Prashant Pal</span>
+          </div>
+          <div className="flex   justify-between">
+            <span>Date of Birth:</span>
+            <span className="text-gray-600 font-semibold">15/01/2005</span>
+          </div>
+          <div className="flex justify-between">
+            <span>City:</span>
+            <span className="text-gray-600 font-semibold">
+             Jaspur (Uttarakhand) 
+            </span>
+          </div>
+          <div className="flex  justify-between">
+            <span>Email:</span>
+            <span className="text-gray-600  font-semibold break-all  ">
+              prashantpal2026@gmail.com
+            </span>
+          </div>
+        </div>
 
-          
-      
-     </div>
-
-     </div>
-<div className='w-full flex justify-center mt-3'>
-     <a href='https://drive.google.com/file/d/1D4tX0tv-YjmmuVlqpkA8R0q_lhwHlkYO/view?usp=sharing' className='bg-blue-500 hover:bg-blue-600 hover:text-[15px] font-[700] px-4 py-2 border border-amber-50   rounded-3xl cursor-pointer'>
-                            Download <span className='text-[#f4f4f4] '>CV</span>
-                        </a>
-                        </div>
-
-     
-
+        {/* Download CV Button */}
+        <div className="w-full flex justify-center">
+          <a
+            href="https://drive.google.com/file/d/1iGjhpLmJN_PYjrK3bo4YE1HPXgHKR19c/view?usp=sharing" // Replace with actual file path
+            download
+            className="bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-full font-bold shadow-lg transition transform hover:scale-95"
+          >
+            Download CV
+          </a>
+        </div>
+      </div>
     </section>
     </>
   )
