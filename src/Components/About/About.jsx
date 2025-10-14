@@ -17,13 +17,9 @@ const About = () => {
 
         {/* Intro paragraph */}
         <p className="text-gray-700 text-lg leading-relaxed text-center md:mb-10 mb-2 max-w-2xl mx-auto">
-        
-        I’m a passionate Full-Stack Developer with {" "}
-        <strong className="text-amber-600">hands-on experience</strong>{" "} in the {" "} 
-       <strong>MERN stack</strong>{" "} (MongoDB, Express.js, React.js, Node.js). I’ve worked on 
-        responsive UIs, built core features from scratch, developed admin panels, 
-        and implemented real-time notifications — all while solving real business 
-        problems through clean, scalable code.
+        I’m a Frontend Developer with <strong className="text-amber-600">1+ year of experience</strong>  at Docso Medicare LLP, 
+       specializing in React.js, TypeScript, and Material UI. Alongside that, I’ve gained full-stack experience through freelance projects using the MERN stack,
+        building fast, user-friendly, and scalable web applications that deliver real impact.
         </p>
         
         {/* Profile Details Grid */}
@@ -54,7 +50,7 @@ const About = () => {
         {/* Download CV Button */}
         <div className="w-full flex justify-center">
           <a
-            href="https://drive.google.com/file/d/1iGjhpLmJN_PYjrK3bo4YE1HPXgHKR19c/view?usp=sharing" // Replace with actual file path
+            href="https://drive.google.com/file/d/1SYOE5I_xBbfa908SPxOAY8BNAK5OEgRj/view?usp=sharing" // Replace with actual file path
             download
             className="bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-full font-bold shadow-lg transition transform hover:scale-95"
           >

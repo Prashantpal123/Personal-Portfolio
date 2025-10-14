@@ -5,8 +5,8 @@ const Education = () => {
         <>
 
         
-           <section id="education" className="mt-6 lg:mt-20">
-        <h1 className="text-[#f4f4f4] w-full text-center text-[28px] pt-3 leading-13 md:text-[40px] lg:text-[50px] font-extrabold md:leading-">
+           <section id="education" className="mt-6 pb-6 lg:mt-20">
+        <h1 className="text-[#f4f4f4] w-full text-center text-[28px] pt-3 leading-13 md:text-[40px] text-4xl font-extrabold md:leading-">
           Education
         </h1>
         <div className="md:flex-row flex flex-col items-center justify-center md:gap-7 mx-4 gap-4 lg:gap-10 lg:mt-8">
