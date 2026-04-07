@@ -17,7 +17,7 @@ const About = () => {
 
         {/* Intro paragraph */}
         <p className="text-gray-700 text-lg leading-relaxed text-center md:mb-10 mb-2 max-w-2xl mx-auto">
-        I’m a Frontend Developer with <strong className="text-amber-600">1+ year of experience</strong>  at Docso Medicare LLP, 
+        I’m a Frontend Developer with <strong className="text-amber-600">1 year and 5 months of experience</strong>  at Docso Medicare LLP, 
        specializing in React.js, TypeScript, and Material UI. Alongside that, I’ve gained full-stack experience through freelance projects using the MERN stack,
         building fast, user-friendly, and scalable web applications that deliver real impact.
         </p>

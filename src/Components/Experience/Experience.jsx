@@ -16,12 +16,12 @@ export default function ExperienceSection() {
     },
     {
       company: "WebcraftUI (Freelance)",
-      role: "frontend Developer",
+      role: "Fullstack Developer",
       duration: "Oct 2024 – present",
       points: [
         "Designed and developed modern landing pages, portfolio websites, and dashboards for startups and personal brands.",
         "Collaborated with clients to transform design mockups (Figma, Adobe XD) into fully functional web interfaces.",
-        "IOptimized website performance, SEO, and cross-browser compatibility.",
+        "Optimized website performance, SEO, and cross-browser compatibility.",
         "Delivered custom features and bug fixes for existing web applications."
       ],
     },
@@ -31,7 +31,7 @@ export default function ExperienceSection() {
   return (
     <section id="experience" className="py-8 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl font-extrabold text-gray-800 text-center mb-8 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text ">
+        <h2 className="md:text-4xl text-[28px] font-extrabold text-gray-800 text-center md:mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text ">
           Professional  <span className="text-amber-500">Experience </span>
         </h2>
 
@@ -48,7 +48,7 @@ export default function ExperienceSection() {
               {/* Timeline dot */}
               <div className="absolute -left-[1.35rem] top-6 w-5 h-5 bg-blue-600 rounded-full border-4 border-white shadow-md" />
 
-              <div className="flex items-center justify-between mb-3">
+              <div className="sm:flex items-center justify-between mb-1">
                 <h3 className="text-xl font-semibold text-gray-900 flex items-center gap-2">
                   <Briefcase className="w-5 h-5 text-blue-600" />
                   {exp.company}
@@ -58,9 +58,9 @@ export default function ExperienceSection() {
                 </p>
               </div>
 
-              <p className="text-blue-700 font-medium mb-4">{exp.role}</p>
+              <p className="text-blue-700 font-medium mb-1">{exp.role}</p>
 
-              <ul className="list-disc list-inside space-y-2 text-gray-700 leading-relaxed">
+              <ul className="list-disc text-[13px] sm:text-sm md:text-[15px] list-inside space-y-2 text-gray-700 leading-relaxed">
                 {exp.points.map((point, i) => (
                   <li key={i}>{point}</li>
                 ))}

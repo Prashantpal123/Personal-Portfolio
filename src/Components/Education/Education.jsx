@@ -17,7 +17,7 @@ const Education = () => {
             </div>
             <h1 className="mx-3 text-white text-[12px]">IFTM UNIVERSITY [ Moradabad ]</h1>
             <p className="mx-3 text-gray-800 bg-white p-1 mb-2 mt-1 rounded text-[13px] font-[400] md:text-[15px]">
-              I am pursuing a Bachelor of Computer Applications (BCA) with a focus on web development, MERN stack, C++, Git/GitHub, operating systems, and DSA, aiming to build a career in full-stack development and software engineering.
+              I recently completed my Bachelor of Computer Applications (BCA) degree with a focus on web development, MERN stack, C++, Git/GitHub, operating systems, and DSA, aiming to build a career in full-stack development and software engineering.
             </p>
           </div>
           <div className="bg-[#1a1a1a] rounded-2xl w-full lg:min-w-[350px] max-w-[350px] transform transition duration-300 hover:scale-110 hover:shadow-2xl">
